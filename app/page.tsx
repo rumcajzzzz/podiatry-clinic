@@ -240,7 +240,7 @@ export default function PodiatryClinic() {
             id="services"
             className={`transition-all duration-1000 delay-300 ${visibleSections.has("services") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
-            <h3 className="text-3xl font-bold text-gray-800 text-center mb-4">Nasze usługi</h3>
+            <h1 className="text-4xl font-bold text-mint-500 text-center mb-4">NASZE USŁUGI</h1>
             <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
               Oferujemy pełen zakres usług podologicznych - od podstawowej pielęgnacji po specjalistyczne zabiegi
               lecznicze
@@ -281,7 +281,7 @@ export default function PodiatryClinic() {
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold text-gray-800 mb-6">O nas</h3>
+                <h1 className="text-4xl font-bold text-mint-500 mb-6">O NAS</h1>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Gabinet Podologiczny „Lucyna Niemczal" to miejsce, gdzie profesjonalizm spotyka się z kobiecą
                   delikatnością. Od ponad 15 lat oferujemy kompleksową opiekę nad zdrowiem Twoich stóp w atmosferze
@@ -337,7 +337,7 @@ export default function PodiatryClinic() {
             id="reviews"
             className={`transition-all duration-1000 delay-400 ${visibleSections.has("reviews") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
-            <h3 className="text-3xl font-bold text-gray-800 text-center mb-12">Opinie naszych klientek</h3>
+            <h3 className="text-3xl font-bold text-mint-500 text-center mb-12">Opinie naszych klientek</h3>
             <div className="grid md:grid-cols-3 gap-8">
               {reviews.map((review, index) => (
                 <Card

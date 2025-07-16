@@ -610,7 +610,15 @@ export default function PodiatryClinic() {
           </div>
           <p className="text-gray-400 text-sm mb-2">Wiosny Ludów 37, 62-025 Kostrzyn</p>
           <p className="text-gray-400 text-sm">
-            © 2025 Gabinet Podologiczny Lucyna Niemczal. Wszystkie prawa zastrzeżone.
+              © 2025 Gabinet Podologiczny Lucyna Niemczal. Wszystkie prawa zastrzeżone. 
+              <br /><br /><a 
+                href="https://rumcajzdev.netlify.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-mint-500 hover:underline"
+              >
+                Designed and  developed by <i>rumcajzdev</i>
+              </a>
           </p>
         </div>
       </footer>
